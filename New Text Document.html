@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Purrfect Cat Products</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f9fa;
+        }
+        header {
+            background-color: #ff6b6b;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            padding: 15px;
+            background-color: #ff9f43;
+        }
+        nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+        }
+        nav a:hover {
+            color: #2d3436;
+        }
+        .container {
+            width: 80%;
+            margin: 20px auto;
+        }
+        .product-listing {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+        .product-item {
+            background-color: white;
+            width: 30%;
+            margin-bottom: 20px;
+            border: 1px solid #dcdde1;
+            border-radius: 5px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            padding: 20px;
+        }
+        .product-item img {
+            width: 100%;
+            height: auto;
+            border-bottom: 1px solid #dcdde1;
+        }
+        .product-item h3 {
+            color: #2d3436;
+        }
+        .product-item p {
+            color: #636e72;
+        }
+        .product-item button {
+            background-color: #ff6b6b;
+            border: none;
+            color: white;
+            padding: 10px 15px;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+        .product-item button:hover {
+            background-color: #ff9f43;
+        }
+        footer {
+            background-color: #2d3436;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Purrfect Cat Products</h1>
+        <p>Your one-stop shop for all your cat’s needs!</p>
+    </header>
+
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">Shop</a>
+        <a href="#">About Us</a>
+        <a href="#">Contact</a>
+    </nav>
+
+    <div class="container">
+        <h2>Our Top Products</h2>
+        <div class="product-listing">
+            <!-- Product 1 -->
+            <div class="product-item">
+                <img src="https://via.placeholder.com/300x200" alt="Cat Bed">
+                <h3>Cozy Cat Bed</h3>
+                <p>Price: $25.99</p>
+                <button>Add to Cart</button>
+            </div>
+            <!-- Product 2 -->
+            <div class="product-item">
+                <img src="https://via.placeholder.com/300x200" alt="Cat Toy">
+                <h3>Interactive Cat Toy</h3>
+                <p>Price: $12.99</p>
+                <button>Add to Cart</button>
+            </div>
+            <!-- Product 3 -->
+            <div class="product-item">
+                <img src="https://via.placeholder.com/300x200" alt="Cat Food">
+                <h3>Premium Cat Food</h3>
+                <p>Price: $18.99</p>
+                <button>Add to Cart</button>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Purrfect Cat Products | All rights reserved</p>
+    </footer>
+
+</body>
+</html>
